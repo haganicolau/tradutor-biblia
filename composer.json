@@ -1,0 +1,24 @@
+{
+    "name": "bibliaAPI",
+    "description": "",
+    "license": "MIT",
+    "keywords": ["bibliaAPI"],
+    "minimum-stability": "stable",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hagamenon Oliveira",
+            "email": "haganicolau@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+       "psr-4": {
+           "bibliaAPI\\": "src"
+       }
+   }
+   
+}
